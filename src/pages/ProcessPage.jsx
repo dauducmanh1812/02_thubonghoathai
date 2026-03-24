@@ -13,7 +13,7 @@ const ProcessPage = () => {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative min-h-[600px] flex items-center pt-20 pb-32 overflow-hidden bg-surface">
+      <section className="relative min-h-[600px] flex items-center pt-20 pb-32 overflow-hidden bg-surface snap-start">
         <div className="absolute inset-0 z-0">
           <img
             alt="Sản xuất gấu bông chất lượng cao"
@@ -50,7 +50,7 @@ const ProcessPage = () => {
       </section>
 
       {/* Capacity & Credentials Bento */}
-      <section className="py-24 bg-surface-container-low">
+      <section className="py-24 bg-surface-container-low snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-2 bg-surface-container-lowest p-10 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
@@ -88,7 +88,7 @@ const ProcessPage = () => {
       </section>
 
       {/* 6-Step Visual Timeline */}
-      <section className="py-32 bg-surface">
+      <section className="py-32 bg-surface snap-start">
         <div className="max-w-7xl mx-auto px-8 text-center mb-20">
           <h2 className="font-headline text-4xl font-bold text-primary mb-4 tracking-tight">Quy trình sản xuất</h2>
           <p className="text-on-surface-variant max-w-2xl mx-auto">Quy trình làm việc 6 bước tinh chỉnh của chúng tôi đảm bảo tính minh bạch, chất lượng và độ chính xác từ bản phác thảo đầu tiên đến lô hàng cuối cùng.</p>
@@ -113,7 +113,7 @@ const ProcessPage = () => {
       </section>
 
       {/* Quote/Contact Section */}
-      <section className="py-24 max-w-7xl mx-auto px-8">
+      <section className="py-24 max-w-7xl mx-auto px-8 snap-start">
         <div className="bg-surface-container-highest rounded-[2.5rem] overflow-hidden flex flex-col lg:flex-row shadow-2xl shadow-primary/5">
           <div className="lg:w-1/2 p-12 lg:p-20">
             <h2 className="font-headline text-4xl font-bold text-primary mb-6">Bắt đầu dự án của bạn ngay</h2>

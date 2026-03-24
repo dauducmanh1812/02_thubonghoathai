@@ -58,7 +58,7 @@ const ProjectsPage = () => {
   return (
     <main className="pt-12">
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-8 mb-20">
+      <section className="max-w-7xl mx-auto px-8 mb-20 snap-start">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-7">
             <span className="font-label text-secondary uppercase tracking-widest text-xs font-bold mb-4 block">30 Năm Kinh Nghiệm Sản Xuất Thủ Công</span>
@@ -117,7 +117,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* Partners Section */}
-      <section className="bg-surface-container-low py-24">
+      <section className="bg-surface-container-low py-24 snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="font-headline text-3xl font-extrabold text-primary mb-4">Đối tác toàn cầu</h2>
@@ -134,7 +134,7 @@ const ProjectsPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-5xl mx-auto px-8 -mt-16 relative z-10">
+      <section className="max-w-5xl mx-auto px-8 -mt-16 relative z-10 snap-start">
         <div className="bg-primary-container p-12 md:p-16 rounded-3xl text-center editorial-shadow overflow-hidden relative">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] opacity-20 pointer-events-none"></div>
           <h2 className="font-headline text-3xl md:text-4xl font-extrabold text-on-primary leading-tight mb-6">Bắt đầu hành trình sản xuất nghệ thuật của bạn</h2>

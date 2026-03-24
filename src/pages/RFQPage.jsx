@@ -4,7 +4,7 @@ const RFQPage = () => {
   return (
     <main className="max-w-7xl mx-auto px-8 py-16 lg:py-24">
       {/* Hero Title Section */}
-      <header className="mb-16">
+      <header className="mb-16 snap-start">
         <span className="text-secondary font-label font-bold uppercase tracking-widest text-xs mb-4 block">Sản xuất B2B</span>
         <h1 className="text-5xl md:text-6xl font-headline font-extrabold text-primary leading-tight max-w-3xl">
           Thổi hồn vào linh vật của bạn với <span className="text-secondary">độ chính xác nghệ thuật.</span>
@@ -13,7 +13,7 @@ const RFQPage = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
         {/* Left Side: RFQ Form */}
-        <section className="lg:col-span-7 bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-[0_12px_40px_rgba(44,26,14,0.06)]">
+        <section className="lg:col-span-7 bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-[0_12px_40px_rgba(44,26,14,0.06)] snap-start">
           <form className="space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-2">

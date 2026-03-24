@@ -60,6 +60,9 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth snap-y snap-mandatory;
+  }
   body {
     @apply bg-surface text-on-surface font-body;
   }

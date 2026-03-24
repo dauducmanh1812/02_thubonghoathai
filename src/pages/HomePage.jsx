@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative min-h-[870px] flex items-center overflow-hidden bg-surface py-20">
+      <section className="relative min-h-[870px] flex items-center overflow-hidden bg-surface py-20 snap-start">
         <div className="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 z-10">
             <span className="inline-block py-1 px-4 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold tracking-wider mb-6 uppercase">
@@ -50,7 +50,7 @@ const HomePage = () => {
       </section>
 
       {/* About Us Heritage */}
-      <section className="py-24 bg-surface-container-low">
+      <section className="py-24 bg-surface-container-low snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
             <div className="relative">
@@ -91,7 +91,7 @@ const HomePage = () => {
       </section>
 
       {/* Core Services */}
-      <section className="py-24 bg-surface">
+      <section className="py-24 bg-surface snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-extrabold text-primary mb-4">Giải Pháp Sản Xuất Doanh Nghiệp</h2>
@@ -124,7 +124,7 @@ const HomePage = () => {
       </section>
 
       {/* Featured Products */}
-      <section className="py-24 bg-surface-container-low">
+      <section className="py-24 bg-surface-container-low snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex justify-between items-end mb-16">
             <div>
@@ -177,7 +177,7 @@ const HomePage = () => {
       </section>
 
       {/* Production Process Timeline Overview */}
-      <section className="py-24 bg-surface">
+      <section className="py-24 bg-surface snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl font-extrabold text-primary">Quy Trình 6 Bước</h2>
@@ -205,7 +205,7 @@ const HomePage = () => {
       </section>
 
       {/* Quick Contact Form */}
-      <section className="py-24 bg-surface">
+      <section className="py-24 bg-surface snap-start">
         <div className="max-w-7xl mx-auto px-8">
           <div className="bg-primary-container rounded-3xl overflow-hidden flex flex-col lg:flex-row">
             <div className="p-12 lg:p-20 lg:w-1/2 flex flex-col justify-center text-on-primary">

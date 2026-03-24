@@ -50,7 +50,7 @@ const ProductsPage = () => {
   return (
     <main className="max-w-7xl mx-auto px-8 py-16">
       {/* Header Section */}
-      <header className="mb-16 max-w-3xl">
+      <header className="mb-16 max-w-3xl snap-start">
         <h1 className="text-5xl font-extrabold text-primary tracking-tight mb-4 leading-tight">Bộ Sưu Tập Của Chúng Tôi</h1>
         <p className="text-lg text-on-surface-variant leading-relaxed opacity-90">
           Khám phá năng lực sản xuất cao cấp của chúng tôi. Lưu ý rằng chúng tôi hoạt động chuyên biệt là nhà sản xuất B2B. Tất cả các mặt hàng được liệt kê chỉ dành cho bán buôn thương mại số lượng lớn và hợp đồng sản xuất theo yêu cầu.
@@ -122,7 +122,7 @@ const ProductsPage = () => {
           </div>
 
           {/* Bulk Order / OEM Section */}
-          <div className="mt-20 relative bg-surface-container-low p-12 rounded-3xl overflow-hidden">
+          <div className="mt-20 relative bg-surface-container-low p-12 rounded-3xl overflow-hidden snap-start">
             <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
               <svg className="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path d="M44.7,-76.4C58.1,-69.2,69.2,-58.1,76.4,-44.7C83.7,-31.4,87.1,-15.7,85.5,-0.9C83.9,13.9,77.3,27.7,68.9,39.8C60.5,51.8,50.3,62.1,38,69.5C25.7,76.9,12.8,81.4,-0.4,82.1C-13.6,82.7,-27.2,79.5,-39.8,72.4C-52.4,65.2,-64,54.1,-71.4,40.8C-78.7,27.5,-81.8,12,-80.6,-3.2C-79.4,-18.4,-73.9,-33.4,-64.3,-45.1C-54.7,-56.8,-41,-65.2,-27.1,-72.1C-13.2,-79,0.9,-84.4,14.8,-83.1C28.7,-81.8,42.5,-73.9,44.7,-76.4Z" fill="#50290b" transform="translate(100 100)"></path>
