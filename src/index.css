@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-secondary: #ffffff;
+  --color-surface-variant: #ebe1d2;
+  --color-on-secondary-fixed: #291800;
+  --color-tertiary-fixed-dim: #e1c0ad;
+  --color-tertiary-container: #5c4536;
+  --color-surface-container-high: #f1e7d7;
+  --color-on-secondary-container: #6b4500;
+  --color-primary-container: #6b3f1f;
+  --color-surface-dim: #e2d9c9;
+  --color-on-primary-fixed-variant: #673c1c;
+  --color-surface-container-low: #fcf2e2;
+  --color-on-background: #1f1b12;
+  --color-on-tertiary-fixed: #29170c;
+  --color-error: #ba1a1a;
+  --color-inverse-primary: #f8b990;
+  --color-on-tertiary-container: #d3b3a1;
+  --color-primary-fixed-dim: #f8b990;
+  --color-on-surface-variant: #51443c;
+  --color-surface: #fff8f1;
+  --color-surface-container: #f7eddd;
+  --color-secondary: #835500;
+  --color-primary: #50290b;
+  --color-secondary-fixed: #ffddb4;
+  --color-tertiary: #442f21;
+  --color-on-error-container: #93000a;
+  --color-on-primary-fixed: #311300;
+  --color-secondary-container: #feae2c;
+  --color-primary-fixed: #ffdcc6;
+  --color-on-error: #ffffff;
+  --color-on-tertiary-fixed-variant: #594234;
+  --color-on-tertiary: #ffffff;
+  --color-secondary-fixed-dim: #ffb955;
+  --color-background: #fff8f1;
+  --color-error-container: #ffdad6;
+  --color-outline-variant: #d6c3b8;
+  --color-inverse-on-surface: #f9f0e0;
+  --color-on-primary-container: #eaac84;
+  --color-inverse-surface: #353025;
+  --color-outline: #84746b;
+  --color-surface-container-highest: #ebe1d2;
+  --color-on-primary: #ffffff;
+  --color-surface-tint: #835331;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-bright: #fff8f1;
+  --color-on-surface: #1f1b12;
+  --color-on-secondary-fixed-variant: #633f00;
+  --color-tertiary-fixed: #fedcc8;
+
+  --font-headline: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.editorial-shadow {
+  box-shadow: 0 12px 40px rgba(44, 26, 14, 0.06);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
